@@ -1,0 +1,24 @@
+/* MyQuillEditor.css */
+.quill-editor {
+  width: 100%; /* 너비를 100%로 설정하여 부모 요소의 너비에 맞게 확장됩니다. */
+  height: 480px; /* 높이를 원하는 값으로 조정합니다. */
+  padding-left: 16px;
+  padding: 14px;
+  border: 1px solid #bdbdbd;
+  overflow: visible;
+  position: relative;
+  z-index: 10;
+}
+
+
+/* Quill 에디터의 드롭다운 메뉴 스타일 조정 */
+.ql-toolbar.ql-snow {
+  z-index: 20; /* 추가된 스타일 */
+}
+
+.ql-container.ql-snow {
+  z-index: 10; /* 추가된 스타일 */
+}
+.ql-picker {
+  z-index: 30; /* 드롭다운 메뉴의 z-index 값을 높여줍니다. */
+}

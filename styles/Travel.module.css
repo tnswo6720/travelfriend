@@ -1,0 +1,30 @@
+/* .myImage {
+  max-width: 600px;
+  max-height: 600px;
+} */
+
+.editorContainer {
+  height: 500px; /* Adjust as needed */
+  overflow: auto;
+}
+
+.editorContainer .ql-editor {
+  max-height: 100%;
+}
+
+.editorContainer .ql-editor img {
+  width: 50px !important;
+
+  height: 50px !important;
+
+  object-fit: cover; /* This will crop the image to fit the dimensions */
+}
+
+.ql-container {
+  height: 500px; /* 원하는 높이로 변경 */
+}
+
+.ql-editor {
+  height: 100%; /* 원하는 높이로 변경 */
+  overflow-y: auto;
+}
